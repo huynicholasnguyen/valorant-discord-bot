@@ -1,2 +1,4 @@
-# valorant-discord-bot
- Discord Bot that uses the Riot and VALORANT API 
+# Valorant Discord Bot
+ Discord is a communication software capable of hosting voice calls, video calls and even just every day messaging. Through text channels, one is able to message just as one would as if they were texting their friends in a group chat.
+Bots designed for Discord can contribute to these every day messages and provide helpful information that can be relevant to conversation or could just simply be used to provide information. Users can interact with these bots through the use of commands, keywords, or a combination of the both. An example command could be /help.
+This Discord bot in particular is designed so that when a user prompts the bot, it will give information based on Riot Games' first-person shooter, VALORANT. Things that you can ask out of the discord bot is a user's rank, match history, and other things asssociated just by inputting a username from the game. 
