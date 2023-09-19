@@ -12,6 +12,9 @@ class MyClient(discord.Client):
         
         if message.content.startswith('!hello'):
             await message.reply('Hello!', mention_author=True)
+            await message.reply('Hello!')
+            
+            
 
 intents = discord.Intents.default()
 intents.message_content = True
