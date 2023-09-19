@@ -10,7 +10,14 @@ class MyClient(discord.Client):
             return
         
         if message.content == '!hello':
-            await message.channel.send('Testing')
+            author_name = message.author.name
+            print(author_name)
+            await message.channel.send('hello')
+        
+        if message.content == '!testing':
+            await message.reply('More Testing')
+        
+        
             
             
 
