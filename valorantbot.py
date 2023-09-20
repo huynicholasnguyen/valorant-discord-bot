@@ -15,10 +15,6 @@ class MyClient(discord.Client):
             author_name = message.author.name
             print(author_name)
             await message.channel.send('hello')
-
-        #If ash were to say something
-        if message.author.name == 'solacing':
-            await message.reply("stfu")
         
         if message.content == '!testing':
             await message.reply('More Testing')
