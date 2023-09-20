@@ -50,7 +50,7 @@ class MyClient(discord.Client):
                 await message.channel.send("You took too long to respond")
 
         
-KEY = os.environ["RGAPI-5bf6523b-a056-446f-8193-1ba6b65e6eec"]   
+KEY = os.environ["RIOT_TOKEN"]   
 valorant_client = valorant.Client(KEY, locale='en-US')
 
 intents = discord.Intents.default()
@@ -58,4 +58,4 @@ intents.message_content = True
 intents.messages= True
 
 client = MyClient(intents=intents)
-client.run('MTA1NzA4Mzk4Njk1NjAwNTQxNg.GNovx2.d4d76gbFkb2YQrQkb-MqNs41u4RnfMz4V9jvZM')
+client.run('DISCORD_TOKEN')
